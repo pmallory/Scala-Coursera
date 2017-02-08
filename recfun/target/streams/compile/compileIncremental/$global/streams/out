@@ -1,0 +1,85 @@
+[0m[[0mdebug[0m] [0mInvalidating /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar: class java.lang.Object now provided by /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Philip/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar: class scala.Char now provided by /home/philip/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set(/Users/Philip/scala/recfun/src/main/scala/common/package.scala, /Users/Philip/scala/recfun/src/main/scala/recfun/Main.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/philip/scala/recfun/src/main/scala/recfun/Main.scala, /home/philip/scala/recfun/src/main/scala/common/package.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidated products: Set(/Users/Philip/scala/recfun/target/scala-2.11/classes/recfun/Main$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class, /Users/Philip/scala/recfun/target/scala-2.11/classes/recfun/Main$$anonfun$main$1.class, /Users/Philip/scala/recfun/target/scala-2.11/classes/common/package$.class, /Users/Philip/scala/recfun/target/scala-2.11/classes/recfun/Main$.class, /Users/Philip/scala/recfun/target/scala-2.11/classes/common/package.class, /Users/Philip/scala/recfun/target/scala-2.11/classes/common/package$$anonfun$subFile$1.class, /Users/Philip/scala/recfun/target/scala-2.11/classes/recfun/Main.class)[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set(/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar, /Users/Philip/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/Philip/scala/recfun/src/main/scala/common/package.scala, /Users/Philip/scala/recfun/src/main/scala/recfun/Main.scala, /home/philip/scala/recfun/src/main/scala/recfun/Main.scala, /home/philip/scala/recfun/src/main/scala/common/package.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set(/Users/Philip/scala/recfun/src/main/scala/recfun/Main.scala, /Users/Philip/scala/recfun/src/main/scala/common/package.scala)[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set(/Users/Philip/scala/recfun/src/main/scala/recfun/Main.scala, /Users/Philip/scala/recfun/src/main/scala/common/package.scala)[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/Philip/scala/recfun/src/main/scala/common/package.scala, /Users/Philip/scala/recfun/src/main/scala/recfun/Main.scala, /home/philip/scala/recfun/src/main/scala/recfun/Main.scala, /home/philip/scala/recfun/src/main/scala/common/package.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 2 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /home/philip/scala/recfun/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.11.7  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_93255b3d[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/philip/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/philip/.sbt/boot/scala-2.10.5/org.scala-sbt/sbt/0.13.9/xsbti/interface-0.13.9.jar:/home/philip/.sbt/boot/scala-2.10.5/org.scala-sbt/sbt/0.13.9/compiler-interface-src/compiler-interface-src-0.13.9.jar:/home/philip/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.7.jar:/home/philip/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/philip/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.4.jar:/home/philip/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/philip/.ivy2/cache/jline/jline/jars/jline-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_37e24f29/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_37e24f29/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_37e24f29/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_37e24f29/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_37e24f29/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_37e24f29/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_37e24f29/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_37e24f29/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_37e24f29/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_37e24f29/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_37e24f29/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_37e24f29/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_37e24f29/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_37e24f29/xsbt/ScaladocInterface.scala[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 5cfe0e0a, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/philip/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/philip/scala/recfun/target/scala-2.11/classes:/home/philip/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar:/home/philip/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.2.jar:/home/philip/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar:/home/philip/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 10.830682445 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/philip/scala/recfun/src/main/scala/recfun/Main.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/philip/scala/recfun/src/main/scala/recfun/Main.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/philip/scala/recfun/src/main/scala/recfun/Main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/philip/scala/recfun/src/main/scala/recfun/Main.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/philip/scala/recfun/src/main/scala/recfun/Main.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, pascal, balance, main, notifyAll, isInstanceOf, ==, clone, Main, toString, !=, getClass, countChange, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/philip/scala/recfun/src/main/scala/common/package.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/philip/scala/recfun/src/main/scala/common/package.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/philip/scala/recfun/src/main/scala/common/package.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/philip/scala/recfun/src/main/scala/common/package.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/philip/scala/recfun/src/main/scala/common/package.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, package, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, resourceAsStreamFromSrc, notifyAll, isInstanceOf, ???, ==, clone, subFile, toString, !=, getClass, ne, eq, ##, finalize, hashCode, ***.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Philip/scala/recfun/src/main/scala/common/package.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Philip/scala/recfun/src/main/scala/common/package.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Philip/scala/recfun/src/main/scala/common/package.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Philip/scala/recfun/src/main/scala/common/package.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Philip/scala/recfun/src/main/scala/common/package.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, package, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, resourceAsStreamFromSrc, notifyAll, isInstanceOf, ???, ==, clone, subFile, toString, !=, getClass, ne, eq, ##, finalize, hashCode, ***.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/Philip/scala/recfun/src/main/scala/recfun/Main.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/Philip/scala/recfun/src/main/scala/recfun/Main.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/Philip/scala/recfun/src/main/scala/recfun/Main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/Philip/scala/recfun/src/main/scala/recfun/Main.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/Philip/scala/recfun/src/main/scala/recfun/Main.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, pascal, balance, main, notifyAll, isInstanceOf, ==, clone, Main, toString, !=, getClass, countChange, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
