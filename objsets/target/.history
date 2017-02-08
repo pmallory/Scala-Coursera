@@ -1,0 +1,20 @@
+test
+console
+test
+test -feature
+compile
+compile -feature
+test
+compile
+recompile
+compile
+test
+compile
+run
+submit
+submit coursera@pmallory.com wqB9kG2E0ZyheowP
+run
+compile
+run
+submit coursera@pmallory.com wqB9kG2E0ZyheowP
+submit coursera@pmallory.com OCTVUXUcerF5caF8
