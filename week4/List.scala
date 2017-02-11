@@ -21,5 +21,12 @@ def nth[T](n: Int, l: List[T]): T =
     else if (n == 0) l.head
     else nth(n-1, l.tail)
 
+object List {
+    def apply[T]() = new Nil[T]
+    def apply[T](x: T) = singleton(x)
+    def apply[T](x: T, y: T) = new Cons(x, singleton(y))
+}
+
 val s = new Cons(42, singleton(1))
-println(nth(0, s))
+val t = List(1,2)
+println(nth(1, t))
